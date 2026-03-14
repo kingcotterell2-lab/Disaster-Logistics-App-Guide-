@@ -1,0 +1,62 @@
+rescuenet/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── frontend/
+│   ├── package.json
+│   ├── next.config.js
+│   ├── tailwind.config.js
+│   │
+│   ├── public/
+│   │   └── logo.png
+│   │
+│   ├── pages/
+│   │   ├── index.js        # Landing page
+│   │   ├── report.js       # Disaster reporting page
+│   │   ├── map.js          # Live disaster map
+│   │   ├── volunteer.js    # Volunteer dashboard
+│   │   └── admin.js        # Command center dashboard
+│   │
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── DisasterCard.js
+│   │   ├── MapView.js
+│   │   └── MissionPanel.js
+│   │
+│   ├── styles/
+│   │   └── globals.css
+│   │
+│   └── utils/
+│       ├── api.js
+│       └── mapHelpers.js
+│
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   │
+│   ├── routes/
+│   │   ├── disasters.js
+│   │   ├── volunteers.js
+│   │   ├── missions.js
+│   │   └── supplies.js
+│   │
+│   ├── controllers/
+│   │   ├── disasterController.js
+│   │   ├── volunteerController.js
+│   │   └── missionController.js
+│   │
+│   ├── models/
+│   │   ├── Disaster.js
+│   │   ├── Volunteer.js
+│   │   └── Mission.js
+│   │
+│   └── services/
+│       ├── aiAnalysis.js
+│       ├── routeOptimizer.js
+│       └── dispatchEngine.js
+│
+└── database/
+    ├── schema.sql
+    └── seedData.sql
