@@ -18,17 +18,20 @@ Cursor AI
 React
 TailwindCSS
 Mapbox
+Openroute service
 
 Backend:
 Supabase
 Node.js
-Express
+Cursor 
 
 Database:
 Supabase (PostgreSQL)
 
 AI:
 OpenAI API
+Gemini API
+Chat GPT
 
 ## Running Locally
 
