@@ -1,0 +1,15 @@
+Disasters
+ - id
+ - type
+ - description
+ - location
+ - severity
+ - status
+ - created_at
+
+Volunteers
+ - id
+ - name
+ - vehicle
+ - capacity
+ - location
