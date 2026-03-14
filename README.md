@@ -15,7 +15,7 @@ RescueNet is a smart logistics and disaster response platform that connects citi
 
 Frontend:
 Cursor AI
-Reacy
+React
 TailwindCSS
 Mapbox
 
